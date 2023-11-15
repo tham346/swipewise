@@ -1,6 +1,7 @@
 import TransactionList from "./components/TransactionList";
 import TransactionForm from "./components/TransactionForm";
 import { TransactionContext } from "./data/TransactionContext";
+import { BarChart } from "./components/Chart";
 import { useState } from "react";
 
 import "./styles.css";
@@ -62,6 +63,7 @@ export default function App() {
           </>
         )}
       </TransactionContext.Provider>
+      <BarChart/>
     </div>
   );
 }

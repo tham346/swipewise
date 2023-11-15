@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #151515;
+}
+
+/* Task UI styles */
+.transaction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 40px;
+  padding: 1rem;
+  box-shadow: 0 1px 2px #151515;
+}
+
+.transaction-details {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.check {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.remove {
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: grey;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.add {
+  cursor: pointer;
+}

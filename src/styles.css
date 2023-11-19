@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); 
 
+/* :root{
+  
+} */
 .App {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  /* background-color: #151515; */
+  background-color: #2B3240;
 }
 
 /* Task UI styles */
@@ -71,11 +74,13 @@
   padding-top: 15%;
   margin-left: -100px;
   font-size: 50px;
+  color:#E5FAFC;
 }
 
 .h2Landing{
   margin-left: -765px;
   font-size: 30px;
+  color:#E5FAFC;
 }
 
 .pLanding{
@@ -83,4 +88,5 @@
   padding-left: 7.6%;
   padding-right: 10%;
   line-height: 25px;
+  color:#E5FAFC;
 }

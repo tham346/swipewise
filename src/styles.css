@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); 
 
+/* :root{
+  
+} */
 .App {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  /* background-color: #151515; */
+  background-color: #2B3240;
 }
 
 /* Task UI styles */
@@ -67,15 +70,26 @@
   cursor: pointer;
 }
 
+.navBar{
+  background-color: #DE7456;
+}
+
+.mainLogo{
+  margin-left: -910px;
+  padding-top: 1%;
+}
+
 .h1Landing{
-  padding-top: 15%;
+  padding-top: 4.5%;
   margin-left: -100px;
   font-size: 50px;
+  color:#E5FAFC;
 }
 
 .h2Landing{
   margin-left: -765px;
   font-size: 30px;
+  color:#E5FAFC;
 }
 
 .pLanding{
@@ -83,4 +97,43 @@
   padding-left: 7.6%;
   padding-right: 10%;
   line-height: 25px;
+  color:#E5FAFC;
 }
+
+.landingButtons{
+  display: flex;
+  flex-direction: row;
+}
+
+.signUp{
+  display: flex;
+  flex-direction: column;
+  background-color: #DE7456;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 7%; 
+  background-color: #2B3240;
+  border-color: white;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navButton{
+  padding-left: 900px;
+}
+
+

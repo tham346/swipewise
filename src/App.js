@@ -41,6 +41,7 @@ export default function App() {
   return (
     <div className="App">
       <NavBar/>
+      <LandingPage/>
       <div className="container">
       <div className="header">
         <span className="heading">John Doe</span>
@@ -68,7 +69,6 @@ export default function App() {
           editing
         }}
       >
-        <LandingPage/>
         {!editing ? (
           <div className="container">
             <div className="buttons">

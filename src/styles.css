@@ -13,6 +13,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: white;
+}
 
 /* :root{
   
@@ -121,68 +122,74 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.navBar{
+.navBar {
+  width: 100%;
   background-color: #DE7456;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.mainLogo{
-  margin-left: -910px;
-  padding-top: 1%;
+.mainLogo {
+  padding-left: 2rem;
 }
 
-.h1Landing{
+.h1Landing {
   padding-top: 4.5%;
   margin-left: -100px;
   font-size: 50px;
-  color:#E5FAFC;
+  color: #E5FAFC;
 }
 
-.h2Landing{
+.h2Landing {
   margin-left: -765px;
   font-size: 30px;
-  color:#E5FAFC;
+  color: #E5FAFC;
 }
 
-.pLanding{
+.pLanding {
   text-align: justify;
   padding-left: 7.6%;
   padding-right: 10%;
   line-height: 25px;
-  color:#E5FAFC;
+  color: #E5FAFC;
 }
 
-.landingButtons{
+.landingButtons {
   display: flex;
   flex-direction: row;
 }
 
-.signUp{
+.signUp {
   display: flex;
   flex-direction: column;
   background-color: #DE7456;
   border: 2px solid white;
-  border-radius: 12px;
+  border-radius: 2rem;
   padding: 5%;
   color: white;
   font-size: 20px;
   font-weight: 15px;
   font-family: 'Quicksand', sans-serif;
-  
 }
 
-.login{
+.login {
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 7%; 
+  padding: 5%;
   background-color: #2B3240;
-  border-color: white;
-  border-radius: 12px;
+  border: 2px solid white;
+  border-radius: 2rem;
   font-size: 20px;
   font-weight: 15px;
   font-family: 'Quicksand', sans-serif;
 }
 
-.navButton{
-  padding-left: 900px;
+.navButton {
+  display: flex;
+  gap: 2rem;
+  width: 20rem;
+  height: 4rem;
 }

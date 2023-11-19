@@ -3,7 +3,8 @@ import TransactionForm from "./components/Transaction/TransactionForm";
 import { TransactionContext } from "./data/TransactionContext";
 import { BarChart } from "./components/Chart/Chart";
 import { useState } from "react";
-
+import NavBar from "./components/NavBar";
+import LandingPage from "./components/LandingPage";
 import "./styles.css";
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
   }
   return (
     <div className="App">
+      <NavBar/>
       <div className="container">
       <div className="header">
         <span className="heading">John Doe</span>
@@ -66,6 +68,7 @@ export default function App() {
           editing
         }}
       >
+        <LandingPage/>
         {!editing ? (
           <div className="container">
             <div className="buttons">

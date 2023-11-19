@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
   background-color: #2B3240;
@@ -8,10 +10,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: white;
-}
+
+/* :root{
+  
+} */
 
 .container {
   justify-content: center;
@@ -114,4 +119,70 @@ body {
   border-style: none;
   border-radius: 2rem;
   padding: 0.5rem 1rem;
+}
+
+.navBar{
+  background-color: #DE7456;
+}
+
+.mainLogo{
+  margin-left: -910px;
+  padding-top: 1%;
+}
+
+.h1Landing{
+  padding-top: 4.5%;
+  margin-left: -100px;
+  font-size: 50px;
+  color:#E5FAFC;
+}
+
+.h2Landing{
+  margin-left: -765px;
+  font-size: 30px;
+  color:#E5FAFC;
+}
+
+.pLanding{
+  text-align: justify;
+  padding-left: 7.6%;
+  padding-right: 10%;
+  line-height: 25px;
+  color:#E5FAFC;
+}
+
+.landingButtons{
+  display: flex;
+  flex-direction: row;
+}
+
+.signUp{
+  display: flex;
+  flex-direction: column;
+  background-color: #DE7456;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 7%; 
+  background-color: #2B3240;
+  border-color: white;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navButton{
+  padding-left: 900px;
 }

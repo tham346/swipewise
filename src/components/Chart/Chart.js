@@ -17,8 +17,22 @@ export const data = [
   ["", 18, "DE7456"],
 ];
 
+const options = {
+  width: 800,
+  height: 400,
+  backgroundColor: 'none',
+  legendTextStyle: { color: '#FFF' },
+  titleTextStyle: { color: '#FFF' },
+  hAxis: {
+    textStyle:{color: '#FFF'}
+  },
+  vAxis: {
+    textStyle:{color: '#FFF'}
+  },
+};
+
 export function BarChart() {
   return (
-    <Chart chartType="ColumnChart" width="800px" height="400px" data={data} />
+    <Chart chartType="ColumnChart" options={options} data={data} />
   );
 }

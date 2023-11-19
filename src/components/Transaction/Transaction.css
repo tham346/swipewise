@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+
+/* Transaction UI styles */
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #43597D;
+    margin-bottom: 5rem;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.sectionTotal {
+    color: #71EC53;
+}
+
+.line {
+    background-color: #2B3240;
+    height: 2px;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1rem;
+    background-color: #43597D;
+}
+
+.transaction-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.transaction-name,
+.transaction-amount {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: grey;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Transaction form styles */
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem 5rem 2rem 2rem;
+    border-radius: 1rem;
+    background-color: #43597D;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 300;
+    width: 43rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 15rem;
+}
+
+.save {
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    background-color: #DE7456;
+    border-style: none;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}

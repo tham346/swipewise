@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); 
+
 .App {
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
-  color: #151515;
+  /* background-color: #151515; */
 }
 
 /* Task UI styles */
@@ -63,4 +65,22 @@
 
 .add {
   cursor: pointer;
+}
+
+.h1Landing{
+  padding-top: 15%;
+  margin-left: -100px;
+  font-size: 50px;
+}
+
+.h2Landing{
+  margin-left: -765px;
+  font-size: 30px;
+}
+
+.pLanding{
+  text-align: justify;
+  padding-left: 7.6%;
+  padding-right: 10%;
+  line-height: 25px;
 }

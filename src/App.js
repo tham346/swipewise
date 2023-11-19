@@ -5,6 +5,7 @@ import { BarChart } from "./components/Chart";
 import { useState } from "react";
 
 import "./styles.css";
+import LandingPage from "./components/LandingPage";
 
 export default function App() {
   const [editing, setEditing] = useState(null);
@@ -51,7 +52,7 @@ export default function App() {
           editing
         }}
       >
-        <h1>SwipeWise</h1>
+        <LandingPage/>
         {!editing ? (
           <>
             <TransactionList />

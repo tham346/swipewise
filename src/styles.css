@@ -166,7 +166,7 @@ body {
   flex-direction: column;
   background-color: #DE7456;
   border: 2px solid white;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   padding: 5%;
   color: white;
   font-size: 20px;
@@ -179,17 +179,128 @@ body {
   flex-direction: column;
   color: white;
   padding: 5%;
+  margin-top: 2rem;
   background-color: #2B3240;
   border: 2px solid white;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   font-size: 20px;
   font-weight: 15px;
   font-family: 'Quicksand', sans-serif;
+  align-items: center;
 }
 
 .navButton {
   display: flex;
   gap: 2rem;
-  width: 20rem;
+  width: 25rem;
   height: 4rem;
+}
+
+.loginForm {
+  padding: 1rem;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="submit"] {
+  background: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  border-style: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  width: 100px;
+  height: 35px;
+}
+
+input[type="submit"]:active {
+  background: #A0C0D7;
+}
+
+.submitBtn {
+  background: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  border-style: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  width: 100px;
+  height: 35px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+}
+
+.signUpForm {
+  padding: 1rem;
+  width: 500px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.signUpBtn {
+  display: flex;
+  flex-direction: column;
+  background-color: #DE7456;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.loginBtn {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5%;
+  background-color: #2B3240;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  text-decoration: none;
+}
+
+.homeBtn {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5%;
+  background-color: #2B3240;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  text-decoration: none;
 }

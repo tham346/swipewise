@@ -7,6 +7,10 @@ import NavBar from "./components/NavBar";
 import LandingPage from "./components/LandingPage";
 import "./styles.css";
 
+import { Routes, Route } from 'react-router-dom';
+import SignUp from "./components/SignUp";
+import Login from "./components/Login";
+
 export default function App() {
   const [editing, setEditing] = useState(null);
 
@@ -41,6 +45,15 @@ export default function App() {
   return (
     <div className="App">
       <NavBar/>
+
+      <div className="routes">
+        <Routes>
+          <Route path="SignUp" element={<SignUp/>} />
+          <Route path="Login" element={<Login/>} />
+          <Route path="Home" element={<App/>} />
+        </Routes>
+      </div>
+
       <LandingPage/>
       <div className="container">
       <div className="header">

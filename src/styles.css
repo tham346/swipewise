@@ -304,3 +304,31 @@ input[type="submit"]:active {
   align-items: center;
   text-decoration: none;
 }
+
+.budgetTitle{
+  font-size: 55px;
+}
+
+.totalBalance{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: -40px;
+}
+
+.balance{
+  font-size: 50px;
+  letter-spacing: 0.2cap;
+}
+
+.progressBar{
+  font-size: 25px;
+}
+
+.setBudgetBtn{
+  background-color: #A0C0D7;
+  border-style: solid;
+  border-color: #A0C0D7;
+  padding: 2%;
+  border-radius: 0.5rem;
+  font-size: 20px;
+}

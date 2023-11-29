@@ -6,6 +6,7 @@ import { BarChart } from "./Chart/Chart";
 import { useState } from "react";
 import "../styles.css";
 import Budget from './Budget/Budget';
+import SetBudget from './SetBudget/SetBudget';
 
 
 export default function Profile() {
@@ -42,6 +43,8 @@ export default function Profile() {
   return (
         <div className="container">
           <div className="header">
+            <Budget/>
+            {/* <SetBudget/> */}
             <span className="heading">John Doe</span>
             <span className="subheading">Welcome back!</span>
           </div>

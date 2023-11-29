@@ -7,7 +7,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function SetBudget() {
-    cconst [startDate, setStartDate] = useState(new Date());
+    const [startDate, setStartDate] = useState(new Date());
 
     return(
         <div>

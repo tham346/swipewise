@@ -5,6 +5,8 @@ import { TransactionContext } from "../data/TransactionContext";
 import { BarChart } from "./Chart/Chart";
 import { useState } from "react";
 import "../styles.css";
+import Budget from './Budget/Budget';
+
 
 export default function Profile() {
   const [editing, setEditing] = useState(null);
@@ -72,8 +74,8 @@ export default function Profile() {
             {!editing ? (
               <div className="container">
                 <div className="buttons">
-                  <button className="budget" onClick={() => setEditing("new")}>
-                    Set Budget
+                  <button className="budget" onPress={() => Budget()}>
+                    Budget
                   </button>
                   <button className="add" onClick={() => setEditing("new")}>
                     + Add Transaction
@@ -90,8 +92,8 @@ export default function Profile() {
             ) : (
               <div className="container">
                 <div className="buttons">
-                  <button className="budget" onClick={() => setEditing("new")}>
-                    Set Budget
+                  <button className="budget" onPress={() => Budget()}>
+                    Budget
                   </button>
                   <button className="add" onClick={() => setEditing("new")}>
                     + Add Transaction

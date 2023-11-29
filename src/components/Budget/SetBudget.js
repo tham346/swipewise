@@ -1,13 +1,11 @@
 import react from "react";
-import { useState } from 'react';
-import DatePicker from 'react-date-picker';
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
 
-type ValuePiece = Date | null;
-
-type Value = ValuePiece | [ValuePiece, ValuePiece];
+import "react-datepicker/dist/react-datepicker.css";
 
 export default function SetBudget() {
-    const [value, onChange] = useState<Value>(new Date());
+    cconst [startDate, setStartDate] = useState(new Date());
 
     return(
         <div>
@@ -17,7 +15,7 @@ export default function SetBudget() {
                     <input type="text" name="amount"/>
                 </label>
             </form>
-            <DatePicker onChange={onChange} value={value} />
+            <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
         </div>
     )
 }

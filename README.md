@@ -4,7 +4,9 @@
 npm install react-bootstrap bootstrap
 
 # Budget > SetBudget.js component Date Picker 
-npm i react-date-picker
+npm install react-datepicker --save 
+
+
 
 
 

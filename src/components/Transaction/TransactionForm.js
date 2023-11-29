@@ -52,7 +52,7 @@ export default function TransactionForm(props) {
   return (
     <div className="formContainer">
       <form onSubmit={handleSubmit} className="form">
-        <h2>Add Income Source</h2>
+        <h2>Add Transaction</h2>
         <label className="inputContainer">
           Transaction Name
           <input

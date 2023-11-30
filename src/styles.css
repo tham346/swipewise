@@ -1,0 +1,408 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #2B3240;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* :root{
+  
+} */
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+.totalBox {
+  background-color: #43597D;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.topRow,
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  text-align: left;
+  font-size: xx-large;
+  padding-bottom: 5rem;
+}
+
+.up {
+  color: #71EC53;
+}
+
+.down {
+  color: #FB3F3F;
+}
+
+.buttons {
+  gap: 2rem;
+}
+
+.budget {
+  cursor: pointer;
+  font-size: medium;
+  color: white;
+  background-color: #43597D;
+  border-style: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.income {
+  cursor: pointer;
+  font-size: medium;
+  color: white;
+  background-color: #A0C0D7;
+  border-style: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.add {
+  cursor: pointer;
+  font-size: medium;
+  color: white;
+  background-color: #DE7456;
+  border-style: none;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.filter {
+  cursor: pointer;
+  font-size: medium;
+  color: white;
+  background-color: #DE7456;
+  border-style: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.navBar {
+  width: 100%;
+  background-color: #DE7456;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainLogo {
+  padding-left: 2rem;
+}
+
+.h1Landing {
+  padding-top: 4.5%;
+  margin-left: -100px;
+  font-size: 50px;
+  color: #E5FAFC;
+}
+
+.h2Landing {
+  margin-left: -765px;
+  font-size: 30px;
+  color: #E5FAFC;
+}
+
+.pLanding {
+  text-align: justify;
+  padding-left: 7.6%;
+  padding-right: 10%;
+  line-height: 25px;
+  color: #E5FAFC;
+}
+
+.landingButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  background-color: #DE7456;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  padding: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5%;
+  margin-top: 2rem;
+  background-color: #2B3240;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+}
+
+.navButton {
+  display: flex;
+  gap: 2rem;
+  width: 25rem;
+  height: 4rem;
+}
+
+.loginForm {
+  padding: 1rem;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="submit"] {
+  background: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  border-style: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  width: 100px;
+  height: 35px;
+}
+
+input[type="submit"]:active {
+  background: #A0C0D7;
+}
+
+.submitBtn {
+  background: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  border-style: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  width: 100px;
+  height: 35px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+}
+
+.signUpForm {
+  padding: 1rem;
+  width: 500px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.signUpBtn {
+  display: flex;
+  flex-direction: column;
+  background-color: #DE7456;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.loginBtn {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5%;
+  background-color: #2B3240;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  text-decoration: none;
+}
+
+.homeBtn {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5%;
+  background-color: #2B3240;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-weight: 15px;
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  text-decoration: none;
+}
+
+.budgetTitle{
+  font-size: 55px;
+}
+
+.totalBalance{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: -40px;
+}
+
+.balance{
+  font-size: 50px;
+  letter-spacing: 0.2cap;
+}
+
+.progressBar{
+  font-size: 25px;
+}
+
+.setBudgetBtn{
+  background-color: #A0C0D7;
+  border-style: solid;
+  border-color: #A0C0D7;
+  padding: 2%;
+  border-radius: 0.5rem;
+  font-size: 20px;
+}
+
+.setBudget{
+  font-size: 55px;
+}
+
+.amount{
+  font-size: 30px;
+}
+
+.dateContainer{
+  padding-top: 2%;
+}
+
+.datePicker{
+  width: 80%;
+  height: 3rem;
+  font-size: larger;
+  border-radius: 0.5rem;
+  background-color: #DE7456;
+  border-color: #DE7456 ;
+  color: white;
+}
+
+form{
+  padding-bottom: 2%;
+}
+
+#amount-input{
+  width: 50%;
+  height: 3rem;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  background-color: #DE7456;
+  border-color: #DE7456;
+  color: white;
+}
+
+.criteria {
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+#dropdown-basic-button{
+  height: 3rem;
+  font-size: 20px;
+  background-color:#DE7456;
+  border-color: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+#dropdown-basic-button2{
+  font-size: 10px;
+  font-size: 20px;
+  height: 3rem;
+  background-color:#DE7456;
+  border-color: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.saveBtn{
+  background-color:#DE7456;
+  border-color: #DE7456;
+  font-size: 30px;
+  padding: 2%;
+  color:white;
+  margin-left: 90%;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 0.5rem;
+}

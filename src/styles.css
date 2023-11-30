@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body {
@@ -331,4 +332,77 @@ input[type="submit"]:active {
   padding: 2%;
   border-radius: 0.5rem;
   font-size: 20px;
+}
+
+.setBudget{
+  font-size: 55px;
+}
+
+.amount{
+  font-size: 30px;
+}
+
+.dateContainer{
+  padding-top: 2%;
+}
+
+.datePicker{
+  width: 80%;
+  height: 3rem;
+  font-size: larger;
+  border-radius: 0.5rem;
+  background-color: #DE7456;
+  border-color: #DE7456 ;
+  color: white;
+}
+
+form{
+  padding-bottom: 2%;
+}
+
+#amount-input{
+  width: 50%;
+  height: 3rem;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  background-color: #DE7456;
+  border-color: #DE7456;
+  color: white;
+}
+
+.criteria {
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+#dropdown-basic-button{
+  height: 3rem;
+  font-size: 20px;
+  background-color:#DE7456;
+  border-color: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+#dropdown-basic-button2{
+  font-size: 10px;
+  font-size: 20px;
+  height: 3rem;
+  background-color:#DE7456;
+  border-color: #DE7456;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.saveBtn{
+  background-color:#DE7456;
+  border-color: #DE7456;
+  font-size: 30px;
+  padding: 2%;
+  color:white;
+  margin-left: 90%;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 0.5rem;
 }

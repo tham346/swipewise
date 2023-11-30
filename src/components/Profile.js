@@ -44,7 +44,7 @@ export default function Profile() {
         <div className="container">
           <div className="header">
             <Budget/>
-            {/* <SetBudget/> */}
+            <SetBudget/>
             <span className="heading">John Doe</span>
             <span className="subheading">Welcome back!</span>
           </div>
